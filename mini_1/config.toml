@@ -21,9 +21,9 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 # Show a summary of a post in a list
-slim_summary = false
+slim_summary = true
 # Show the content of a post in a list
-slim_content = false
+slim_content = true
 # Links to show at the top of the menu
 slim_menu = [
     {url = "$BASE_URL/tags", name = "Tags"}
