@@ -16,7 +16,18 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+bundled = "true"
+author = "Jaxon Yue"
+about = "Graduate Student at Duke University"
+
 menu = [
-{ text = "foo", link = "/foo"},
-{ text = "bar", link = "/bar"},
+{ text = "Home", link = "/" },
+{ text = "About", link = "/about/" },
+{ text = "Education", link = "/education" },
+{ text = "Skills", link = "/skills/" },
+{ text = "Projects", link = "/projects/"}
+]
+
+social = [
+{ user = "Email Address", link = "jaxon.yue1@gmail.com", icon = "mail-outline"},
 ]
