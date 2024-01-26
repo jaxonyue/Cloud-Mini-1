@@ -1,0 +1,6 @@
+[submodule "mini_proj_1/themes/themes/papermod"]
+	path = mini_proj_1/themes/themes/papermod
+	url = https://github.com/cydave/zola-theme-papermod
+[submodule "mini_proj_1/themes/papermod"]
+	path = mini_proj_1/themes/papermod
+	url = https://github.com/cydave/zola-theme-papermod

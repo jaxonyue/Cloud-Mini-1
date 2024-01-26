@@ -7,7 +7,11 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "kita"
+theme = "slim"
+
+taxonomies = [
+    {name = "tags", paginate_by = 5, rss = true}
+]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -15,3 +19,15 @@ theme = "kita"
 highlight_code = true
 
 [extra]
+# Show a summary of a post in a list
+slim_summary = false
+# Show the content of a post in a list
+slim_content = false
+# Links to show at the top of the menu
+slim_menu = [
+    {url = "$BASE_URL/tags", name = "Tags"}
+]
+# Links to show at the bottom of the menu
+slim_social = [
+    {url = "https://github.com/jameshclrk", name = "Github"}
+]
